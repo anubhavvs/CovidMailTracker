@@ -28,8 +28,8 @@ time = now.strftime("%H:%M:%S")
 
 #####		 EMAIL 			#####
 
-SENDER = "anubhavvsaha2001@gmail.com"
-GOOGLE_PASS = "llaxjknesflrvziv"
+SENDER = "# PASTE YOUR GMAIL "
+GOOGLE_PASS = " # PASTE YOUR APP PASSWORD "
 reciever = SENDER
 subject = "Daily Covid Tracker INDIA"
 body = f"Date: {date}\n\nTime: {time}\n\nTotal Cases: {data['Coronavirus Cases']}\n\nTotal Deaths: {data['Deaths']}\n\nTotal Recovered: {data['Recovered']}"
