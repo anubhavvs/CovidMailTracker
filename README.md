@@ -32,7 +32,7 @@ This is a simple Python CLI tool that will send you regular emails regarding the
   ```
 #### 2. Schedule the script:
 
-  - Open Task Scheduler in Windows Opeartion System.
+  - Open Task Scheduler in Windows Operating System.
   - Under ***Actions*** tab, select select ***Create Task...*** option.
   - Provide a name of your choice.
   - Under the ***Action*** Tab in the popup, create a new action.
