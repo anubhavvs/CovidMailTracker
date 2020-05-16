@@ -5,8 +5,8 @@ from emailscript import sendemails
 
 ######		SCRAPPING		######
 
-country = # ENTER THE COUNTRY YOU WANT TO HAVE STATS OF #
-response = requests.get('https://www.worldometers.info/coronavirus/country/'+country+'/')
+country = 'india'#
+response = requests.get('https://www.worldometers.info/coronavirus/country/'+country.lower()+'/')
 soup = bs4.BeautifulSoup(response.text, 'lxml')
 
 value = []
