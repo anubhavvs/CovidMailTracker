@@ -5,7 +5,7 @@ from emailscript import sendemails
 
 ######		SCRAPPING		######
 
-country = 'india'#
+country = '# PASTE THE COUNTRY'
 response = requests.get('https://www.worldometers.info/coronavirus/country/'+country.lower()+'/')
 soup = bs4.BeautifulSoup(response.text, 'lxml')
 
