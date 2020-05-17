@@ -9,7 +9,7 @@ def sendemails(sender,reciever, password, subject, body):
     server.login(sender, password)
     msg = f'Subject: {subject}\n\n{body}'
 
-    server.sendmail('Virus Alert', reciever, msg)
+    server.sendmail(sender, reciever, msg)
 
     print('Mail has been sent')
     server.quit()
